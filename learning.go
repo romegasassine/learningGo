@@ -86,7 +86,7 @@ func main(){
 	blackBook := make(map[string]int)
 
 	//setting map key value pairs manually
-	blackBook["rachid"] = 9176601691
+	blackBook["rachid"] = 516883858
 	blackBook["random"] = 123467890
 
 	fmt.Println("Black Book : ", blackBook)
@@ -106,7 +106,7 @@ func main(){
 	fmt.Println("Is my gfs number jotted down?", isMyGfThere)
 	
 	if isMyGfThere == false{
-		blackBook["nichola"] = 3471111111
+		blackBook["nichola"] = 5731111111
 		_, isMyGfThere := blackBook["nichola"]
 		
 		fmt.Println("Is my gfs number jotted down now?", isMyGfThere)
