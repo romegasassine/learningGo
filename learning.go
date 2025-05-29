@@ -3,7 +3,10 @@ package main
 import "fmt"
 import "time"
 
+func plus(a int, b int) int {
+	 return a + b
 
+	}
 
 func main(){
 
@@ -112,8 +115,15 @@ func main(){
 		fmt.Println("Is my gfs number jotted down now?", isMyGfThere)
 	}
 
+	/*function syntax is written like func name(arg datatype) return datatype {}
+	when there are multiple params with the same data type, you can provide the last param with the data type to basically group all the params under that datatype 
 
-
+	*/	
 	
+
+	plusresult := plus(3, 4)
+	fmt.Println("3 + 4 function : ", plusresult)
+
+
 	
 }
