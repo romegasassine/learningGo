@@ -115,7 +115,7 @@ func main(){
 		fmt.Println("Is my gfs number jotted down now?", isMyGfThere)
 	}
 
-	/*function syntax is written like func name(arg datatype) return datatype {}
+	/*function syntax is written like func name(paramName datatype) return-datatype {}
 	when there are multiple params with the same data type, you can provide the last param with the data type to basically group all the params under that datatype 
 
 	*/	
@@ -123,7 +123,19 @@ func main(){
 
 	plusresult := plus(3, 4)
 	fmt.Println("3 + 4 function : ", plusresult)
+	
 
+	nums := []int{10, 15, 20, 25, 30}
 
+	for i, num := range(nums) {
+		fmt.Println("Index : ", i, "stores number ; ", num)	
+	}
+	
+	carRanking := map[int]string{1 : "BMW", 2 : "Benz"}
+
+	for k, v := range(carRanking) {
+	
+		fmt.Printf("Rank %d is car %s \n", k, v)
+	}
 	
 }
